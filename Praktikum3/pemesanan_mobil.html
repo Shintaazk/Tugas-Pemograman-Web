@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan Mobil</title>
+</head>
+
+<fieldset style="background-color:beige;">
+        <header style="border-radius:10px; height:35px ;background-color:gray">
+        <nav>
+              <ul style="display: flex; list-style-type: none; gap: 50px;align-center;">
+                <li>
+                  <!-- Home -->
+                  <a style="margin-right:100px;"  href="#">Home</a> 
+                </li>
+                <li>
+                  <!--- Current -->
+                  <a style="margin-right:100px"  href="#">Transaction history</a> 
+                </li>
+                <li>
+                    <!-- Contact -->
+                    <a style="margin-right:100px" href="#">Policy</a> 
+                </li>
+                <li>
+                    <!-- Contact -->
+                    <a  href="#">Log out</a>
+                </li>
+            </ul>
+        </nav>
+        </header>
+    
+<body>
+<form action="hasil_pesan_mobil.html">
+        <div  style="position: relative;">
+            <img src="teslaku.jpg" width="350px"   alt="deskripsi gambar" style="position: absolute; top: 50px; right: 10px;" >
+        </div>
+        
+        <table>
+            <thead>
+                <tr><br />
+                    <th colspan="2"><h2 >Pemesanan Mobil</h2><br /></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label for="nama">Nama</label></td>
+                    <td>: <input type="text" id="nama"></td>
+                </tr>
+                <tr>
+                    <td><label for="Alamat">Alamat</label></td>
+                    <td>: <textarea name="" id="" cols="23" rows="5"></textarea>
+
+                </tr>
+                <tr>
+                    <td><label for="hp">No Handphone</label></td>
+                    <td>: <input type="number" id="hp"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td>: <input type="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="model">Akun Bank</label></td>
+                    <td>:<select >
+                    <option value=""></option>
+                    <option value="">BCA</option>
+                    <option value="">BRI</option>
+                    <option value="">Mandiri</option>
+                    <option value="">BSI</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="model">Model pilihan</label></td>
+                    <td>:<select >
+                    <option value=""></option>
+                    <option value="">Tesla Model X Long Range <br>CVT, 5 Kursi, 670 hp</option>
+                    <option value="">Tesla Model X Plaid <br>CVT, 5 Kursi, 1020 hp</option>
+                    </select>
+                    </td>
+                </tr>
+                            
+                <tr>
+                    <td><label for="warna">Warna pilihan</label>
+                    <td>:<input type="checkbox" /> red <input style="margin-left:23px;" type="checkbox" />royal blue <input type="checkbox" /> rebecca purple <input type="checkbox" /> grey</td>
+                </tr>
+               
+                <tr>
+                     <td><input type="submit" value="Klik untuk lanjut" /></td>
+                </tr>
+                   
+                
+            </tbody>
+        </table>
+            <br>
+    </form>
+</body>
+</fieldset>
+</html>
