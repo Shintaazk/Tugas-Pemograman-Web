@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Form Peserta Seminar</title>
+        <style >
+        #header {
+            text-align: center;
+        }
+        .menu ul  {
+            display: flex;
+            list-style-image: none;
+            gap: 15px;
+            float: right
+        }
+        </style>
+    </head>
+        <form action="Hasil seminar">
+        <div id="header">
+          <h1>Sistem Informasi Seminar Tugas Akhir - SISTA</h1>
+        </div>
+        <div class="menu">
+        <ul>
+            <li><a href="Home">Home </a></li>
+            <li><a href="Jadwal">Jadwal </a></li>
+            <li><a href="Detail Jadwal">Detail Jadwal </a></li>
+            <li>Daftar Peserta</li>
+        </ul>
+        </div>
+        <br /><br />
+        <table border="0">
+            <tr>
+                <td> Mahasiswa Seminar </td>
+                <td>: Diego Armando (0102002)</td>
+            </tr>
+            <tr>
+                <td>Judul</td>
+                <td>: Rancang Bangun Aplikasi Seminar Tugas Akhir Berbasis Web Menggunakan MVC Framework</td>
+            </tr><br />
+            <tr>
+                <td>Waktu</td>
+                <td>: Senin,4 Januari 2021,10:00</td>
+            </tr>
+            </table>
+            <body><fieldset>
+            <legend><h2>Form Peserta Seminar</h2></legend>
+            <table border="0">
+                <tr>
+                    <td> <label for="NIM">NIM :</label></td>
+                    <td> <input type="text"/></td>
+                </tr>
+                <tr>
+                    <td> <label for="Nama ">Nama :</label></td>
+                    <td><input type="text" /></td>
+                </tr>
+                <tr>
+                    <td> <label for="Prodi ">Prodi : </label></td>
+                    <td> 
+                    <select >
+                    <option value="Sistem Informasi">Sistem Informasi</option>
+                    <option value="Teknik Informatika">Teknik Informatika</option>
+                    <option value="Bisnis Digital">Bisnis Digital</option>
+                    </select>
+                    </td>
+                </tr>
+            </table>
+            <div class="round checkbox">
+            <label for="Program">Program :</label>
+            <input type="checkbox" />
+            <label for="D3">D3</label>
+            <input type="checkbox"/>
+            <label for="S1 Reguler">S1 Reguler</label>
+            <input type="checkbox"/>
+            <label for="S1 Fast Trackt">S1 Fast Trackt</label>
+            <input type="checkbox"/>
+            <label for="S2">S2</label><br /><br />
+            </div>
+            <input type="submit"  value="Daftar" />
+        </fieldset>
+        </body>
+        </form>
+</html>
